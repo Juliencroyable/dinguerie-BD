@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" contents="Our Streaming Website" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>StreamingParadise</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1>StreamingParadise</h1>
+        <ul>
+          <li>Home</li>
+          <li>Base de données</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+
+    <h2>A propos</h2>
+    <p>
+      Nous sommes une plat-forme de mise à disposition d'un catalogue de films
+      achetables. Nous vous mettons à disposition notre base de données qui vous
+      permettra de naviguer facilement parmi une multitude de contenus
+      audiovisuels.
+    </p>
+
+    <form>
+      <fieldset>
+        <div class="formulaire">
+          <legend>Inscription</legend>
+          <label>Nom</label>
+          <input type="text" placeholder="Entrer votre nom" /><br />
+
+          <label>Prénom</label>
+          <input type="text" placeholder="Entrer votre prénom" /><br />
+
+          <label>Age</label>
+          <input
+            type="number"
+            min="0"
+            max="122"
+            placeholder="Entrer votre âge"
+          /><br />
+
+          <label>Pays</label>
+          <input type="text" placeholder="Entrer votre pays" /><br />
+
+          <label>Identifiant</label>
+          <input type="text" placeholder="Entrer votre identifiant" /><br />
+
+          <label class="fin-form">Mot de passe</label>
+          <input
+            type="password"
+            minlength="8"
+            placeholder="Entrer votre mot de passe"
+          /><br />
+
+          <input type="submit" value="Valider" />
+          <br />
+        </div>
+      </fieldset>
+    </form>
+
+    <footer>
+      <small>
+        &copy; Copyright 2022, Nantes Université, RAT Damien and LOUET Julien
+      </small>
+    </footer>
+  </body>
+</html>
